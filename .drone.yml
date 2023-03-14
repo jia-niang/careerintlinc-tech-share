@@ -27,7 +27,7 @@ steps:
     commands:
       - mkdir -p /webroot/paperplane-share/
       - rm -rf /webroot/paperplane-share/**/*.*
-      - cp -rf ./build/* /webroot/paperplane-share/
+      - cp -rf ./dist/* /webroot/paperplane-share/
 
 volumes:
   - name: webroot
