@@ -1,5 +1,5 @@
 ---
-title: 贝塞尔曲线
+title: 非线性动画
 order: 2
 nav:
   title: 交互
