@@ -7,8 +7,6 @@ nav:
 group:
   title: 动效
   order: 0
-demo:
-  cols: 2
 ---
 
 # 模态框动画
