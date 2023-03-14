@@ -3,10 +3,12 @@
     "strict": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"]
     }
   },
-  "include": [".dumi/**/*", ".dumirc.ts"]
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
 }

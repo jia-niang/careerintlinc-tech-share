@@ -5,6 +5,15 @@ export default defineConfig({
     name: 'Career FE',
     logo: '/icons8-starburst-shape-100.png',
     favicons: ['/favicon.ico'],
+    extraBabelPlugins: [
+      [
+        'emotion',
+        {
+          autoLabel: true,
+          labelFormat: '[local]',
+        },
+      ],
+    ],
     footer: false,
   },
 })

@@ -3,6 +3,7 @@ module.exports = {
   proseWrap: 'never',
   singleQuote: true,
   trailingComma: 'all',
+  arrowParens: 'avoid',
   semi: false,
   overrides: [
     {
@@ -12,4 +13,4 @@ module.exports = {
       },
     },
   ],
-};
+}
