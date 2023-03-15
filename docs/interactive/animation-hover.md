@@ -72,3 +72,7 @@ demo:
 - `hover-stop-propagation`：被点按的元素如果开启了这个属性，那么它会避免元素的外层元素也进入被点按的状态。
 
 ## 医脉同道中的应用
+
+医脉同道团队在小程序的此类交互中，运用了以上理论，列表项、跳转页面的选单均使用点按反馈：
+
+<video src="https://paperplane-1253277322.cos.ap-shanghai.myqcloud.com/career-share/interactive/ymtd__interactive__animation-hover.mp4" controls></video> <video src="https://paperplane-1253277322.cos.ap-shanghai.myqcloud.com/career-share/interactive/ymtd__interactive__animation-hover-2.mp4" controls></video>
