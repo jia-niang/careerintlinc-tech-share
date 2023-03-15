@@ -64,7 +64,9 @@ right: -500px;
 ## 组件化
 
 和上一章的模态框一样，我们可以开发一个 “包裹器” 组件，内部封装了状态和动画样式等，便于开发其他的抽屉组件。
-因为考虑到抽屉可能从屏幕不同方向弹出，因此这个 “包裹器” 可能会提供四个方向来作为属性。
+
+<code src="@/interactive/animation-drawer/wrapper.tsx"></code>
+<code src="@/interactive/animation-drawer/wrapper-hoc.tsx"></code>
 
 ## 更多有趣的实现
 
@@ -73,4 +75,13 @@ right: -500px;
 <code src="@/interactive/animation-drawer/scroll.tsx"></code>
 <code src="@/interactive/animation-drawer/t3d.tsx"></code>
 
+修改 `transform` 属性值便可以控制抽屉动画的表现形式。
+
 ## 医脉同道中的应用
+
+因为 antd 自带了抽屉动画，所以医脉同道 PC 站并没有使用自研的抽屉组件；
+而医脉同道小程序使用 Taro 框架，它的 UI 框架方面较为薄弱，因此我们开发了相关的抽屉控制组件来方便使用。
+
+上述的抽屉组件，在医脉同道中的应用：
+
+<video src="https://paperplane-1253277322.cos.ap-shanghai.myqcloud.com/career-share/interactive/ymtd__interactive__animation-drawer.mp4" controls></video>
