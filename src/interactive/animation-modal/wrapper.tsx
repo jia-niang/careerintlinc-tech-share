@@ -56,7 +56,7 @@ export function ModalWrapper(props: IModalWrapperProps) {
         {children}
       </div>
       <div
-        onClick={() => void onClose?.()}
+        onClick={onClose}
         onTransitionEnd={maskTransitionEndHandler}
         className={modalMaskCss}
         style={{ transition: `all ${transitionDuration}ms`, opacity: active ? 0.8 : 0 }}
