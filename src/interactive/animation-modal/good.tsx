@@ -19,7 +19,7 @@ export function GoodModal(props: IModalProps) {
   useEffect(() => {
     if (props.open) {
       setAlive(true) // 弹窗要打开，先把节点挂出来
-      setTimeout(() => void setActive(true), 10) // 然后再改 opacity
+      setTimeout(() => void setActive(true), 20) // 然后再改 opacity
     } else {
       setActive(false) // 弹窗要关闭，直接改 opacity
     }

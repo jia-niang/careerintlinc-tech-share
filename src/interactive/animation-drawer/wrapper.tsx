@@ -24,7 +24,7 @@ export function DrawerWrapper(props: IDrawerWrapperProps) {
   useEffect(() => {
     if (open) {
       setAlive(true)
-      setTimeout(() => void setActive(true), 10)
+      setTimeout(() => void setActive(true), 20)
     } else {
       setActive(false)
     }
