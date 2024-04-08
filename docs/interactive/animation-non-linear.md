@@ -141,4 +141,4 @@ transition-timing-function: step-end;
 医脉同道前端团队，深入研究用户交互和体验，为项目中的 “抽屉” 等组件都加了非线性动画。
 举例：
 
-<video src="https://paperplane-1253277322.cos.ap-shanghai.myqcloud.com/career-share/interactive/ymtd__interactive__animation-non-linear.mp4" controls></video>
+<video src="https://cdn.paperplane.cc/career-share/interactive/ymtd__interactive__animation-non-linear.mp4" controls></video>

@@ -100,4 +100,4 @@ group:
 
 上述的弹窗组件，在医脉同道中的应用：
 
-<video src="https://paperplane-1253277322.cos.ap-shanghai.myqcloud.com/career-share/interactive/ymtd__interactive__animation-modal.mp4" controls></video>
+<video src="https://cdn.paperplane.cc/career-share/interactive/ymtd__interactive__animation-modal.mp4" controls></video>
