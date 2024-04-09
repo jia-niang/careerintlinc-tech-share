@@ -13,5 +13,5 @@ hero:
   <div style="margin: 0 0 10px;">构建状态</div>
   <img src="https://drone.paperplane.cc/api/badges/jia-niang/paperplane-share/status.svg" />
   <div style="margin: 40px 0 10px;">移动端扫码</div>
-  <img src="https://static.paperplane.cc/career-share/qrcode.png" />
+  <img src="https://cdn.paperplane.cc/career-share/qrcode.png" />
 </div>
