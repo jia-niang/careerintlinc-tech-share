@@ -75,4 +75,4 @@ demo:
 
 医脉同道团队在小程序的此类交互中，运用了以上理论，列表项、跳转页面的选单均使用点按反馈：
 
-<video src="https://cdn.paperplane.cc/career-share/interactive/ymtd__interactive__animation-hover.mp4" controls></video> <video src="https://cdn.paperplane.cc/career-share/interactive/ymtd__interactive__animation-hover-2.mp4" controls></video>
+<video src="https://static.paperplane.cc/career-share/interactive/ymtd__interactive__animation-hover.mp4" controls></video> <video src="https://static.paperplane.cc/career-share/interactive/ymtd__interactive__animation-hover-2.mp4" controls></video>
