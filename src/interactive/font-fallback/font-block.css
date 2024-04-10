@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'fzzy2';
-  src: url('/fonts/fzzy.ttf?') format('truetype');
+  src: url('/paperplane-share/fonts/fzzy.ttf?') format('truetype');
 
   /** 注意下面这一行 👇 */
   font-display: block;
