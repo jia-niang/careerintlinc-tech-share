@@ -1,4 +1,5 @@
 import { defineConfig } from 'dumi'
+import HtmlWebpackTagsPlugin from 'html-webpack-tags-plugin'
 // @ts-ignore
 import S3Plugin from 'webpack-s3-plugin'
 
@@ -11,6 +12,16 @@ export default defineConfig({
   },
 
   chainWebpack(memo: any) {
+    memo.plugin('HtmlWebpackTagsPlugin').use(HtmlWebpackTagsPlugin, [
+      {
+        usePublicPath: false,
+        links: [
+          { path: 'https://cdn.paperplane.cc', attributes: { rel: 'dns-prefetch' } },
+          { path: 'https://cdn.paperplane.cc', attributes: { rel: 'preconnect' } },
+        ],
+      },
+    ])
+
     if (process.env.NODE_ENV === 'production') {
       memo.output.publicPath('https://cdn.paperplane.cc/paperplane-share/')
       memo.plugin('S3Plugin').use(S3Plugin, [
