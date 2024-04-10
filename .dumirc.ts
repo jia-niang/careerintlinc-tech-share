@@ -11,8 +11,8 @@ export default defineConfig({
   },
 
   links: [
-    { path: 'https://cdn.paperplane.cc', attributes: { rel: 'dns-prefetch' } },
-    { path: 'https://cdn.paperplane.cc', attributes: { rel: 'preconnect' } },
+    { path: 'https://cdn.paperplane.cc', rel: 'dns-prefetch' },
+    { path: 'https://cdn.paperplane.cc', rel: 'preconnect' },
   ],
 
   chainWebpack(memo: any) {
