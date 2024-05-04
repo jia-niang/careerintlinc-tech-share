@@ -1,6 +1,7 @@
 {
-  "name": "paperplane-demo",
+  "name": "careerintlinc-tech-share",
   "version": "0.0.1",
+  "private": true,
   "description": "Career Intl. Inc. 2023 FE team share online demo.",
   "license": "MIT",
   "scripts": {
