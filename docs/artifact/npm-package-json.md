@@ -117,13 +117,13 @@ group:
   "title": "我是项目标题，可以随便写点啥",
   "description": "我是项目描述，可以随便写点啥",
   "keywords": ["keyword1", "keyword2"],
-  "homepage": "https://share.paperplane.cc/",
+  "homepage": "https://careerintlinc-tech-share.paperplane.cc/",
   "bugs": {
-    "url": "https://git.paperplane.cc/jia-niang/paperplane-share/issues"
+    "url": "https://git.paperplane.cc/jia-niang/careerintlinc-tech-share/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.paperplane.cc/jia-niang/paperplane-share"
+    "url": "https://git.paperplane.cc/jia-niang/careerintlinc-tech-share"
   },
   "license": "MIT",
   "contributors": ["Frank Pu <1@paperplane.cc> (https://paperplane.cc/)"]

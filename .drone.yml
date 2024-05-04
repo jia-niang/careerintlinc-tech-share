@@ -29,9 +29,8 @@ steps:
       - name: webroot
         path: /webroot
     commands:
-      - mkdir -p /webroot/paperplane-share/
-      - rm -rf /webroot/paperplane-share/*
-      - cp -rf ./dist/* /webroot/paperplane-share/
+      - mkdir -p /webroot/careerintlinc-tech-share/
+      - cp -rf ./dist/* /webroot/careerintlinc-tech-share/
 
 volumes:
   - name: webroot

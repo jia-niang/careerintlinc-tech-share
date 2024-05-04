@@ -17,11 +17,11 @@ export default defineConfig({
 
   chainWebpack(memo: any) {
     if (process.env.NODE_ENV === 'production') {
-      memo.output.publicPath('https://cdn.paperplane.cc/paperplane-share/')
+      memo.output.publicPath('https://cdn.paperplane.cc/careerintlinc-tech-share/')
       memo.plugin('S3Plugin').use(S3Plugin, [
         {
           exclude: /.*\.html$/,
-          basePath: 'paperplane-share',
+          basePath: 'careerintlinc-tech-share',
           s3Options: {
             accessKeyId: process.env.COS_SECRET_ID,
             secretAccessKey: process.env.COS_SECRET_KEY,

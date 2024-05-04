@@ -84,4 +84,4 @@ right: -500px;
 
 上述的抽屉组件，在医脉同道中的应用：
 
-<video src="https://cdn.paperplane.cc/career-share/interactive/ymtd__interactive__animation-drawer.mp4" controls></video>
+<video src="https://cdn.paperplane.cc/careerintlinc-tech-share-attachment/interactive/ymtd__interactive__animation-drawer.mp4" controls></video>
