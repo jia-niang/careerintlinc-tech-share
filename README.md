@@ -6,13 +6,13 @@
 
 ```bash
 # 安装依赖
-yarn
+pnpm i
 
 # 调试
-yarn start
+pnpm run start
 
 # 发布构建
-yarn run build
+pnpm run build
 ```
 
 ## 实现方式
